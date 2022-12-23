@@ -27,7 +27,6 @@ def program():  #identifies the signal to start from user using switch
         if x==1:
             return x 
 
-
 engine = pyttsx3.init()  
 voices = engine.getProperty('voices')
 engine.setProperty('voices', voices[2].id)  #selecting voices that are inbuild in pyttsx3
