@@ -41,3 +41,5 @@ elif 'stop' in query:
   
 elif 'exit' in query:
      break 
+
+        
