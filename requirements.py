@@ -13,6 +13,7 @@ import gtts
 from playsound import playsound
 from PIL import Image
 from googletrans import Translator
-from gtts import gTTS      #Import Google Text to Speech
+from gtts import gTTS      #Importing Google Text to Speech
 from IPython.display import Audio 
-import RPi.GPIO as GPIO
+import RPi.GPIO as GPIO    #Get input using switch 
+ 
